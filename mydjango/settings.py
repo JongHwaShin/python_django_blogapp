@@ -93,7 +93,8 @@ DATABASES = {
         'NAME': 'django_db', # DB명
         'USER': 'python', # 데이터베이스 계정
         'PASSWORD':'python', # 계정 비밀번호
-        'HOST':'localhost', # 데이테베이스 IP
+        # 'HOST':'localhost',
+        'HOST':'mydjango.cty1s3gahbfs.ap-northeast-2.rds.amazonaws.com', # 데이테베이스 IP
         'PORT':'3306', # 데이터베이스 port
     }
 }
